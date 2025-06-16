@@ -1,0 +1,70 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    width: 400px;
+}
+
+/* Heading */
+.container h1 {
+    color: #16404D;
+    margin-bottom: 20px;
+}
+
+/* Quote Box */
+.quote-box {
+    background: #FBF5DD;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    position: relative;
+    box-shadow: inset 0 0 10px #ccc;
+}
+
+#quote {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#author {
+    color: #DDA853;
+    font-weight: bold;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    background-color: #16404D;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0c2b38;
+}

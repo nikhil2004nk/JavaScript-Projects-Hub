@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mood Switcher</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="main-title">Hi there!</h1>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <p class="greeting">Let's change your mood 🎭</p>
+
+        <div class="buttons">
+            <button class="mood-btn" data-mood="Happy">Happy</button>
+            <button class="mood-btn" data-mood="Sad">Sad</button>
+            <button class="mood-btn" data-mood="Excited">Excited</button>
+        </div>
+
+        <div class="theme">
+            <button id="toggle-theme">Toggle Theme</button>
+        </div>
+
+        <p class="description">Mood will appear below:</p>
+        <h2 id="moodText">🤔</h2>
+        <h2 id="moodEmoji"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
